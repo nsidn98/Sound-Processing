@@ -10,3 +10,5 @@ This repo contains code for some of the basic sound processing techniques using 
 'record.py' is for recording the .wav file.
 
 'play.py' is for playing it.
+
+'image_to_sound.py' is for converting an image to a .wav file.
