@@ -1,0 +1,12 @@
+Python libraries required
+numpy
+matplotlib
+wave
+array
+pyaudio
+
+For installing pyaudio use 'pip install pyaudio' for python2.7
+and 'pip3 install pyaudio' for python3.6+
+
+For installing wave use 'pip install wave' for python2.7
+and 'pip3 install wave' for python3.6+
