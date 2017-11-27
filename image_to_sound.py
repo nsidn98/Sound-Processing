@@ -20,10 +20,11 @@ def make_wav(image_filename):
 
     # Write to disk
     output_file = wave.open(image_filename+".wav", "w")
-    output_file.setparams((1, 2, 44100, 0, "NONE", "not compressed"))
-    output_file.writeframes(data)
+    output_file.setparams((1, 2, 44100, 0, "NONE", "not compressed")) #44100 is used because of Nyquist Shannon Sampling Theorem
+    output_file.writeframes(data)                                       #i.e 2*times the frequency we want
     output_file.close()
     print ("Wrote %s.wav" % image_filename)
 
 
-make_wav(my_image)
+make_wav(my_image)#you will have to give the full path to the image
+#example:'~/Downloads/my_img.jpg'
