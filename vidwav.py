@@ -1,18 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-@author: fabincarmo@gmail.com
-"""
 
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-
-# Uncomment if you want to use TeX
-#from matplotlib import rc
-#rc('text', usetex=True)
-#rc('font', **{'family':'serif', 'serif':['Computer Modern Roman'], 
-#        'monospace': ['Computer Modern Typewriter'], 'size':14})
 
 import matplotlib.animation as manimation
 import wave
@@ -91,7 +82,7 @@ def vidwav(wavfile, fps=25):
     os.system("rm temp.mp4")
 
 def main():
-    vidwav("flight.wav")
+    vidwav("flight.wav") # flight.wav is the .wav file I recorded using read.py
 
 if __name__ == "__main__":
     main()
