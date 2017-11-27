@@ -82,7 +82,7 @@ def vidwav(wavfile, fps=25):
     os.system("rm temp.mp4")
 
 def main():
-    vidwav("flight.wav") # flight.wav is the .wav file I recorded using read.py
+    vidwav("flight.wav") # flight.wav is the .wav file I recorded using record.py
 
 if __name__ == "__main__":
     main()
