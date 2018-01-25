@@ -1,14 +1,14 @@
 # sound_processing
 This repo contains code for some of the basic sound processing techniques using python.
 
-'flight.wav' is a file containing a recording of soundtrack-Flight by Hans Zimmer from Man of Steel.
+`flight.wav` is a file containing a recording of soundtrack-Flight by Hans Zimmer from Man of Steel.
 
-'flight.mp4 is a spectogram along with amplitude graph of flight.wav.
+`flight.mp4` is a spectogram along with amplitude graph of flight.wav.
 
-'vidwav.py' is the code for making the spectogram file. 
+`vidwav.py` is the code for making the spectogram file. 
 
-'record.py' is for recording the .wav file.
+`record.py` is for recording the .wav file.
 
-'play.py' is for playing it.
+`play.py` is for playing it.
 
-'image_to_sound.py' is for converting an image to a .wav file.
+`image_to_sound.py` is for converting an image to a .wav file.
